@@ -1,0 +1,29 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.top-header {
+  width: 375px;
+  border: 1px solid #000;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toolbar span {
+  margin: auto 0;
+}
+
+.toolbar > * {
+  padding: 20px;
+}
+
+.toolbar h1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #28352f;
+}
