@@ -44,6 +44,7 @@
   line-height: 52px;
   color: #172b4d;
 }
+
 .header-title .color-green {
   color: #36b37f;
 }
@@ -78,6 +79,7 @@
   left: calc(50% - 40px / 2 + 0.5px);
   bottom: 4px;
 }
+
 .down-arrow img {
   border: 1px solid #dfe1e6;
   border-radius: 32px;
