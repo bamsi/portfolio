@@ -42,3 +42,14 @@
 .header-title .color-green {
   color: #36b37f;
 }
+
+.header-body {
+  text-align: center;
+  padding: 24px;
+}
+
+.header-body p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
