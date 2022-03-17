@@ -28,3 +28,17 @@
   line-height: 28px;
   color: #28352f;
 }
+
+.header-title {
+  text-align: center;
+}
+
+.header-title h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+.header-title .color-green {
+  color: #36b37f;
+}
