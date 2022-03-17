@@ -53,3 +53,14 @@
   font-size: 20px;
   line-height: 28px;
 }
+
+.icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.icons li {
+  padding: 4px;
+}
