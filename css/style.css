@@ -6,7 +6,7 @@
 }
 
 .top-header {
-  width: 375px;
+  width: 360px;
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -16,7 +16,7 @@
 .toolbar {
   display: flex;
   justify-content: space-between;
-  width: 375px;
+  width: 360px;
   padding-left: 12px;
 }
 
@@ -89,6 +89,7 @@
 
 .work-container {
   display: grid;
+  grid-template-columns: 360px;
 }
 
 .work-title {
@@ -106,7 +107,7 @@
 }
 
 .work-list {
-  padding: 24px;
+  display: flex;
 }
 
 .work-list ul {
@@ -190,6 +191,7 @@ button:hover {
 
 .about-container {
   display: grid;
+  grid-template-columns: 360px;
 }
 
 .about-header {
@@ -248,8 +250,9 @@ button:hover {
 }
 
 .skills-container ul {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
-  margin: 0;
   padding: 0;
 }
 
@@ -258,8 +261,7 @@ button:hover {
   box-sizing: border-box;
   border-radius: 8px;
   background: #ebf0ee;
-  height: 352px;
-  width: 327px;
+  height: 342px;
 }
 
 .item-list {
