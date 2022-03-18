@@ -166,7 +166,7 @@
   margin-top: 29px;
 }
 
-.button-link > button {
+.button {
   width: 122px;
   align-items: center;
   padding: 12px;
@@ -190,7 +190,11 @@ button {
 
 .about-header {
   display: flex;
-  justify-content: center;
+  align-items: flex-end;
+  height: 127px;
+  background-image: url("../images/about-me-background.png");
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 
 .about-header h1 {
@@ -199,6 +203,8 @@ button {
   line-height: 52px;
   color: #172b4d;
   margin: 0;
+  width: 351px;
+  text-align: center;
 }
 
 .about-desc {
@@ -219,14 +225,16 @@ button {
 
 .resume-button {
   display: flex;
-  justify-content: center;
+  background-image: url("../images/about-me-background2.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  height: 72px;
 }
 
 .resume-button button {
   width: 159px;
   height: 48px;
-  left: 96px;
-  top: 285px;
+  margin: auto;
 }
 
 .skills-container {
