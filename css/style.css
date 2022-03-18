@@ -91,7 +91,8 @@
 }
 
 .work-title {
-  width: 327px;
+  display: flex;
+  justify-content: center;
 }
 
 .work-title h2 {
@@ -100,4 +101,81 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  width: 327px;
+}
+
+.work-list {
+  padding: 24px;
+}
+
+.work-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.work-list .list-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  background: #ebf0ee;
+  margin-bottom: 24px;
+}
+
+.image-placeholder {
+  height: 252px;
+}
+
+.image-desc {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 327px;
+  height: 222px;
+  padding: 16px;
+}
+
+.image-desc h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #3a4a42;
+  margin: 16px 0px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons div {
+  background: #ebf0ee;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.button-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 29px;
+}
+
+.button-link button {
+  background: #36b37f;
+  border-radius: 4px;
+  width: 122px;
+  height: 48px;
+  align-items: center;
+  padding: 12px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+  border: 0;
 }
