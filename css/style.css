@@ -227,3 +227,58 @@ button {
   left: 96px;
   top: 285px;
 }
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 59px;
+}
+
+.skills-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills-container li {
+  border: 1px solid #c1c7d0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: #ebf0ee;
+  height: 340px;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.item-list:first-child {
+  padding-top: 40px;
+}
+
+.item-list h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+
+.about-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.about-buttons div {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #36b37e;
+  letter-spacing: 0.03em;
+}
