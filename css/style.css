@@ -77,13 +77,27 @@
 .down-arrow {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  position: absolute;
-  left: calc(50% - 40px / 2 + 0.5px);
-  bottom: 4px;
+  justify-content: center;
+  margin-top: 60px;
 }
 
 .down-arrow img {
   border: 1px solid #dfe1e6;
   border-radius: 32px;
+}
+
+.work-container {
+  display: grid;
+}
+
+.work-title {
+  width: 327px;
+}
+
+.work-title h2 {
+  color: #172b4d;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
