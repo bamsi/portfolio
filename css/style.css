@@ -193,4 +193,22 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  color: #172b4d;
+  margin: 0;
+}
+
+.about-desc {
+  display: flex;
+  margin: 24px 0;
+}
+
+.about-desc p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+  text-align: center;
+  width: 351px;
+  display: block;
+  margin: 0;
 }
