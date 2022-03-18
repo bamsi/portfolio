@@ -245,7 +245,8 @@ button {
   box-sizing: border-box;
   border-radius: 8px;
   background: #ebf0ee;
-  height: 340px;
+  height: 352px;
+  width: 327px;
 }
 
 .item-list {
@@ -255,7 +256,7 @@ button {
   margin-bottom: 24px;
 }
 
-.item-list:first-child {
+.item-list .icon {
   padding-top: 40px;
 }
 
@@ -268,6 +269,7 @@ button {
 
 .about-buttons {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 12px;
 }
