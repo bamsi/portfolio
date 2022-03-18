@@ -173,7 +173,6 @@
 }
 
 button {
-  background: #36b37f;
   border-radius: 4px;
   height: 48px;
   font-weight: 500;
@@ -182,6 +181,11 @@ button {
   color: #fff;
   letter-spacing: 0.03em;
   border: 0;
+  background: #36b37f;
+}
+
+button:hover {
+  background: #c5e9da;
 }
 
 .about-container {
@@ -197,7 +201,7 @@ button {
   background-position: right top;
 }
 
-.about-header h1 {
+.about-header h2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
