@@ -179,3 +179,18 @@
   letter-spacing: 0.03em;
   border: 0;
 }
+
+.about-container {
+  display: grid;
+}
+
+.about-header {
+  display: flex;
+  justify-content: center;
+}
+
+.about-header h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
