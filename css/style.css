@@ -19,6 +19,9 @@
   width: 375px;
 }
 
+.toolbar a {
+  padding-left: 12px;
+}
 .toolbar span {
   margin: auto 0;
 }
@@ -77,10 +80,8 @@
 .down-arrow {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  position: absolute;
-  left: calc(50% - 40px / 2 + 0.5px);
-  bottom: 4px;
+  justify-content: center;
+  margin-top: 62px;
 }
 
 .down-arrow img {
