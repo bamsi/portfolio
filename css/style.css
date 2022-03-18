@@ -17,11 +17,9 @@
   display: flex;
   justify-content: space-between;
   width: 375px;
-}
-
-.toolbar a {
   padding-left: 12px;
 }
+
 .toolbar span {
   margin: auto 0;
 }
