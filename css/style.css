@@ -215,3 +215,15 @@ button {
   display: block;
   margin: 0;
 }
+
+.resume-button {
+  display: flex;
+  justify-content: center;
+}
+
+.resume-button button {
+  width: 159px;
+  height: 48px;
+  left: 96px;
+  top: 285px;
+}
