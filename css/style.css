@@ -129,7 +129,7 @@
 }
 
 .image-desc {
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
   width: 327px;
   height: 222px;
@@ -142,7 +142,7 @@
   line-height: 32px;
   text-align: center;
   color: #3a4a42;
-  margin: 16px 0px;
+  margin: 16px 0;
 }
 
 .buttons {
@@ -166,7 +166,7 @@
   margin-top: 29px;
 }
 
-.button-link button {
+.button-link > button {
   width: 122px;
   align-items: center;
   padding: 12px;
@@ -179,7 +179,7 @@ button {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   letter-spacing: 0.03em;
   border: 0;
 }
@@ -276,7 +276,7 @@ button {
 }
 
 .about-buttons div {
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
   padding: 12px;
   font-weight: 600;
