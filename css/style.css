@@ -166,12 +166,15 @@
 }
 
 .button-link button {
-  background: #36b37f;
-  border-radius: 4px;
   width: 122px;
-  height: 48px;
   align-items: center;
   padding: 12px;
+}
+
+button {
+  background: #36b37f;
+  border-radius: 4px;
+  height: 48px;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
