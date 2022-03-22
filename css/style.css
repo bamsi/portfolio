@@ -305,5 +305,9 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 24px;
 }
 
+.contact-section h2 {
+  text-align: center;
+}
