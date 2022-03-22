@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Title -->
     <title>My Portfolio</title>
   </head>
   <body>
@@ -211,6 +219,73 @@
           </div>
         </section>
       </div>
+
+      <section class="contact-section">
+        <div>
+          <h2>
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </h2>
+        </div>
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mjvlodlr" method="POST">
+            <ul>
+              <li>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Full name"
+                  maxlength="30"
+                  required
+                />
+              </li>
+              <li>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email address"
+                  required
+                />
+              </li>
+              <li>
+                <textarea
+                  placeholder="Enter text here"
+                  name="message"
+                  maxlength="500"
+                  required
+                ></textarea>
+              </li>
+              <li>
+                <button type="submit" class="button">Get in touch</button>
+              </li>
+            </ul>
+          </form>
+        </div>
+        <div class="icon-wrapper">
+          <ul class="icons">
+            <li>
+              <a href="#"><img src="images/cat.png" alt="cat icon" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/in.png" alt="linkldn icon" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/v.png" alt="two icon" /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/twitter.png" alt="twitter icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/m.png" alt="m icon" /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <footer class="footer-section">
+        <p>myemailhere@email.com</p>
+      </footer>
     </main>
   </body>
 </html>
