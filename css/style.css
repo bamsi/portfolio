@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 .main-container {
   font-family: sans-serif;
   display: flex;
@@ -259,7 +267,6 @@ button:hover {
 
 .skills-container li {
   border: 1px solid #c1c7d0;
-  box-sizing: border-box;
   border-radius: 8px;
   background: #ebf0ee;
   height: 342px;
@@ -313,9 +320,43 @@ button:hover {
 }
 
 .contact-form {
-  
 }
 
 .contact-form ul {
   list-style-type: none;
+  padding: 0;
+}
+
+.contact-form input {
+  min-width: 327px;
+  height: 48px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+.contact-form input::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6b778c;
+  padding: 15px 16px;
+}
+
+.contact-form textarea::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+  padding: 12px;
+}
+
+.contact-form textarea {
+  min-width: 327px;
+  height: 114px;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+}
+
+.contact-form li {
+  margin-bottom: 24px;
 }
