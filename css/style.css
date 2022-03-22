@@ -364,3 +364,16 @@ button:hover {
 .contact-form li {
   margin-bottom: 24px;
 }
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 300px;
+}
+
+.footer-section p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+}
