@@ -319,12 +319,15 @@ button:hover {
   text-align: center;
 }
 
-.contact-form {
-}
-
 .contact-form ul {
   list-style-type: none;
   padding: 0;
+}
+
+.contact-form li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-form input {
