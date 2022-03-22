@@ -311,3 +311,11 @@ button:hover {
 .contact-section h2 {
   text-align: center;
 }
+
+.contact-form {
+  
+}
+
+.contact-form ul {
+  list-style-type: none;
+}
