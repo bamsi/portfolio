@@ -1,11 +1,13 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 .main-container {
   font-family: Inter, sans-serif;
   display: flex;
@@ -14,7 +16,6 @@ html {
 }
 
 .top-header {
-  width: 360px;
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -24,7 +25,7 @@ html {
 .toolbar {
   display: flex;
   justify-content: space-between;
-  width: 360px;
+  min-width: 360px;
   padding-left: 12px;
 }
 
@@ -48,9 +49,8 @@ html {
   text-align: center;
 }
 
-.header-title h1,
-.header-title h2,
-.contact-section h2 {
+h1,
+h2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -107,12 +107,8 @@ html {
 }
 
 .work-title h2 {
-  color: #172b4d;
   text-align: center;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  width: 327px;
+  padding: 0 24px;
 }
 
 .work-list {
@@ -141,7 +137,6 @@ html {
 .image-desc {
   background: #fff;
   border-radius: 8px;
-  width: 327px;
   height: 222px;
   padding: 16px;
 }
@@ -177,7 +172,7 @@ html {
 }
 
 .button {
-  width: 122px;
+  min-width: 122px;
   align-items: center;
   padding: 12px;
 }
@@ -217,8 +212,7 @@ button:hover {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  margin: 0;
-  width: 351px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -247,7 +241,7 @@ button:hover {
 }
 
 .resume-button button {
-  width: 159px;
+  min-width: 159px;
   height: 48px;
   margin: auto;
 }
@@ -320,6 +314,11 @@ button:hover {
 
 .contact-section h2 {
   text-align: center;
+  margin: 0;
+}
+
+.contact-form {
+  margin-top: 58px;
 }
 
 .contact-form ul {
@@ -331,6 +330,10 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.contact-form li:last-child {
+  margin-bottom: 58px;
 }
 
 .contact-form input {
@@ -379,4 +382,5 @@ button:hover {
   font-size: 20px;
   line-height: 32px;
   color: #42526e;
+  margin: 0;
 }
