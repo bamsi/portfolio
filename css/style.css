@@ -41,7 +41,8 @@
 }
 
 .header-title h1,
-.header-title h2 {
+.header-title h2,
+.contact-section h2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -299,3 +300,10 @@ button:hover {
   color: #36b37e;
   letter-spacing: 0.03em;
 }
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
