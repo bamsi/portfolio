@@ -98,7 +98,6 @@ h2 {
 
 .work-container {
   display: grid;
-  grid-template-columns: 360px;
 }
 
 .work-title {
