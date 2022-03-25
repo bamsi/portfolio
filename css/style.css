@@ -277,12 +277,14 @@ button {
   letter-spacing: 0.03em;
   border: 0;
   background: #36b37f;
+  transition: transform 500ms;
 }
 
 button:hover {
   background: #36b37f;
   box-shadow: 0 8px 16px #36b37f3d;
   cursor: pointer;
+  transform: scale(1.05);
 }
 
 button:active {
@@ -436,6 +438,12 @@ button:active {
   line-height: 16px;
   color: #36b37e;
   letter-spacing: 0.03em;
+  transition: background-color 500ms, color 1000ms;
+}
+
+.about-buttons div:hover {
+  background-color: #36b37e;
+  color: white;
 }
 
 .contact-section {
