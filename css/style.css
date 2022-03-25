@@ -62,30 +62,6 @@ ul {
   display: none;
 }
 
-.nav ul {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-}
-
-.nav li {
-  padding: 26px 12px;
-  margin-right: 8px;
-}
-
-.nav li:last-child {
-  margin-right: 0;
-}
-
-.nav a {
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  text-decoration: none;
-  color: #344563;
-}
-
 /** this is a style for desktop version **/
 @media only screen and (min-width: 768px) {
   .header-mobile {
@@ -119,6 +95,30 @@ ul {
 
   .top-section {
     padding-bottom: 495px;
+  }
+
+  .nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav li {
+    padding: 26px 12px;
+    margin-right: 8px;
+  }
+
+  .nav li:last-child {
+    margin-right: 0;
+  }
+
+  .nav a {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #344563;
   }
 }
 
@@ -191,7 +191,7 @@ ul {
   padding: 24px 22px;
 }
 
-/** display grid for medium version**/
+/** display grid for medium version **/
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   .work-list {
     grid-template-columns: repeat(2, 369px);
@@ -313,7 +313,8 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("../images/about-me-desktop1.svg"),
+    background-image:
+      url("../images/about-me-desktop1.svg"),
       url("../images/about-me-desktop2.svg");
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
@@ -370,6 +371,7 @@ button:active {
   justify-content: center;
   padding: 0 24px;
 }
+
 .skills-list {
   display: grid;
   grid-template-columns: 369px;
@@ -383,7 +385,7 @@ button:active {
   height: 342px;
 }
 
-/** display grid for medium version**/
+/** display grid for medium version **/
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   .skills-list {
     grid-template-columns: repeat(2, 369px);
@@ -443,9 +445,6 @@ button:active {
   flex-direction: column;
   align-items: center;
   padding: 0 24px;
-  background-image: url("../images/illustration-contact-form.svg");
-  background-repeat: no-repeat;
-  background-position: bottom right;
 }
 
 .contact-wrapper {
@@ -466,7 +465,7 @@ button:active {
   max-width: 684px;
 }
 
-/** display grid for medium version**/
+/** display grid for medium version **/
 @media only screen and (min-width: 768px) {
   .form-title {
     margin-right: 24px;
@@ -511,16 +510,26 @@ button:active {
   .contact-wrapper {
     padding-bottom: 225px;
   }
+
   .contact-background {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-image: url("../images/contact-section-1.svg"),
+    background-image:
+      url("../images/contact-section-1.svg"),
       url("../images/contact-section-2.svg"),
       url("../images/contact-form-illustratoin-3-desktop.svg");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: bottom left, 20% 80%, bottom right;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-section {
+    background-image: url("../images/illustration-contact-form.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
   }
 }
 
