@@ -373,6 +373,7 @@ button:active {
 .skills-list {
   display: grid;
   grid-template-columns: 369px;
+  padding: 0;
 }
 
 .skills-list li {
@@ -437,6 +438,7 @@ button:active {
 }
 
 .contact-section {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -446,32 +448,107 @@ button:active {
   background-position: bottom right;
 }
 
-.contact-section h2 {
+.contact-wrapper {
+  /* flex: 1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
+.contact-wrapper > *:nth-child(1) {
+  max-width: 463px;
+}
+
+.contact-wrapper > *:nth-child(2) {
+  flex-grow: 1;
+  max-width: 684px;
+}
+
+/** display grid for medium version**/
+@media only screen and (min-width: 768px) {
+  .form-title {
+    margin-right: 24px;
+  }
+
+  .contact-wrapper h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+  }
+
+  .contact-wrapper > *:nth-child(1) {
+    min-width: 463px;
+  }
+
+  .contact-wrapper > *:nth-child(2) {
+    min-width: 684px;
+  }
+
+  .contact-form input {
+    width: 100%;
+    min-width: 684px;
+  }
+
+  .contact-form li:last-child {
+    align-self: flex-start;
+  }
+
+  .contact-form {
+    margin-top: 80px;
+  }
+
+  .footer-section p {
+    display: none;
+  }
+
+  .icon-wrapper {
+    border-top: 1px solid #dfe1e6;
+    width: 100%;
+  }
+
+  .contact-wrapper {
+    padding-bottom: 225px;
+  }
+  .contact-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: url("../images/contact-section-1.svg"),
+      url("../images/contact-section-2.svg"),
+      url("../images/contact-form-illustratoin-3-desktop.svg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom left, 20% 80%, bottom right;
+  }
+}
+
+.contact-wrapper h2 {
   text-align: center;
   margin: 0;
 }
 
 .contact-form {
-  margin-top: 58px;
-}
-
-.contact-form ul {
-  list-style-type: none;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0 24px;
 }
 
 .contact-form li {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 24px;
 }
 
 .contact-form li:last-child {
-  margin-bottom: 58px;
+  padding: 0;
+  margin: 0;
+  align-self: center;
 }
 
 .contact-form input {
+  width: 100%;
   min-width: 327px;
   height: 48px;
   border: 1px solid #d0d9d4;
@@ -496,6 +573,7 @@ button:active {
 
 .contact-form textarea {
   font-family: Inter, sans-serif;
+  width: 100%;
   min-width: 327px;
   height: 114px;
   border: 1px solid #60c095;
