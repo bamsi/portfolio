@@ -191,7 +191,7 @@ ul {
   padding: 24px 22px;
 }
 
-/** display grid for desktop version**/
+/** display grid for medium version**/
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   .work-list {
     grid-template-columns: repeat(2, 369px);
@@ -201,7 +201,7 @@ ul {
   }
 }
 
-/** display grid for medium devices **/
+/** display grid for large desktop devices **/
 @media only screen and (min-width: 1200px) {
   .work-list {
     grid-template-columns: repeat(3, 369px);
@@ -367,22 +367,37 @@ button:active {
 
 .skills-container {
   display: flex;
-  flex-direction: column;
-  margin-top: 59px;
+  justify-content: center;
+  padding: 0 24px;
+}
+.skills-list {
+  display: grid;
+  grid-template-columns: 369px;
 }
 
-.skills-container ul {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  padding: 0;
-}
-
-.skills-container li {
+.skills-list li {
   border: 1px solid #c1c7d0;
   border-radius: 8px;
   background: #ebf0ee;
   height: 342px;
+}
+
+/** display grid for medium version**/
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .skills-list {
+    grid-template-columns: repeat(2, 369px);
+    justify-content: space-between;
+    column-gap: 24px;
+  }
+}
+
+/** display grid for large desktop devices **/
+@media only screen and (min-width: 1200px) {
+  .skills-list {
+    grid-template-columns: repeat(3, 369px);
+    justify-content: space-between;
+    column-gap: 24px;
+  }
 }
 
 .item-list {
