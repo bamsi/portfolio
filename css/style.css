@@ -490,10 +490,6 @@ button:active {
     min-width: 684px;
   }
 
-  .contact-form li:last-child {
-    align-self: flex-start;
-  }
-
   .contact-form {
     margin-top: 80px;
   }
@@ -531,6 +527,10 @@ button:active {
     background-repeat: no-repeat;
     background-position: bottom right;
   }
+
+  .contact-form li:last-child {
+    align-self: center;
+  }
 }
 
 .contact-wrapper h2 {
@@ -553,7 +553,8 @@ button:active {
 .contact-form li:last-child {
   padding: 0;
   margin: 0;
-  align-self: center;
+
+  /* align-self: center; */
 }
 
 .contact-form input {
