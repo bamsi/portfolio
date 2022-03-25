@@ -437,6 +437,12 @@ button:active {
   line-height: 16px;
   color: #36b37e;
   letter-spacing: 0.03em;
+  transition: background-color 500ms, color 1000ms;
+}
+
+.about-buttons div:hover {
+  background-color: #36b37e;
+  color: white;
 }
 
 .contact-section {
