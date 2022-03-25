@@ -227,7 +227,6 @@ ul {
 .image-desc {
   background: #fff;
   border-radius: 8px;
-  height: 222px;
   padding: 16px;
 }
 
@@ -259,7 +258,7 @@ ul {
 .button-link {
   display: flex;
   justify-content: center;
-  margin-top: 29px;
+  margin: 29px 0 8px 0;
 }
 
 .button {
@@ -313,8 +312,7 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image:
-      url("../images/about-me-desktop1.svg"),
+    background-image: url("../images/about-me-desktop1.svg"),
       url("../images/about-me-desktop2.svg");
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
@@ -512,8 +510,7 @@ button:active {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-image:
-      url("../images/contact-section-1.svg"),
+    background-image: url("../images/contact-section-1.svg"),
       url("../images/contact-section-2.svg"),
       url("../images/contact-form-illustratoin-3-desktop.svg");
     background-repeat: no-repeat, no-repeat, no-repeat;
@@ -530,6 +527,10 @@ button:active {
 
   .contact-form li:last-child {
     align-self: center;
+  }
+
+  .footer-section {
+    margin-bottom: 300px;
   }
 }
 
@@ -594,7 +595,6 @@ button:active {
 .footer-section {
   display: flex;
   justify-content: center;
-  margin-bottom: 300px;
 }
 
 .footer-section p {
