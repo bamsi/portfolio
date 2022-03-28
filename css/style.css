@@ -506,8 +506,11 @@ button:active {
   }
 
   .icon-wrapper {
-    border-top: 1px solid #dfe1e6;
     width: 100%;
+  }
+
+  .border-top {
+    border-top: 1px solid #dfe1e6;
   }
 
   .contact-wrapper {
