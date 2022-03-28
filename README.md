@@ -6,6 +6,10 @@ This is a skeleton of a mobile version portfolio design to demonstrate how the p
 
 HTML, CSS, node
 
+## Live demo
+
+[Live Demo Link](https://bamsi.github.io/portfolio/)
+
 ## Getting Started
 
 Please do the following to setup project locally
