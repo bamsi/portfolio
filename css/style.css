@@ -13,7 +13,8 @@ body {
 }
 
 h1,
-h2,h3 {
+h2,
+h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -314,8 +315,7 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image:
-      url("../images/about-me-desktop1.svg"),
+    background-image: url("../images/about-me-desktop1.svg"),
       url("../images/about-me-desktop2.svg");
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
@@ -383,7 +383,6 @@ button:active {
   border: 1px solid #c1c7d0;
   border-radius: 8px;
   background: #ebf0ee;
-  height: 342px;
 }
 
 /** display grid for medium version **/
@@ -409,6 +408,7 @@ button:active {
   flex-direction: column;
   align-items: center;
   margin-bottom: 24px;
+  padding-bottom: 24px;
 }
 
 .item-list .icon {
@@ -522,8 +522,7 @@ button:active {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-image:
-      url("../images/contact-section-1.svg"),
+    background-image: url("../images/contact-section-1.svg"),
       url("../images/contact-section-2.svg"),
       url("../images/contact-form-illustratoin-3-desktop.svg");
     background-repeat: no-repeat, no-repeat, no-repeat;
