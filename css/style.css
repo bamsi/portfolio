@@ -13,7 +13,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -230,7 +231,7 @@ ul {
   padding: 16px;
 }
 
-.image-desc h2 {
+.image-desc h3 {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -383,7 +384,6 @@ button:active {
   border: 1px solid #c1c7d0;
   border-radius: 8px;
   background: #ebf0ee;
-  height: 342px;
 }
 
 /** display grid for medium version **/
@@ -409,13 +409,14 @@ button:active {
   flex-direction: column;
   align-items: center;
   margin-bottom: 24px;
+  padding-bottom: 24px;
 }
 
 .item-list .icon {
   padding-top: 40px;
 }
 
-.item-list h2 {
+.item-list h3 {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
