@@ -51,6 +51,9 @@ ul {
   padding-top: 54px;
 }
 
+.closeIcon {
+  display: none;
+}
 .header-mobile a {
   font-weight: 600;
   font-size: 20px;
