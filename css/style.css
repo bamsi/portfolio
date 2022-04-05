@@ -81,15 +81,13 @@ ul {
 
 .nav-mobile a {
   text-decoration: none;
-  text-shadow: none;
+  color: #3a4a42;
+  font-weight: 600;
+  font-size: 32px;
 }
 
 .nav-mobile li {
   padding-bottom: 40px;
-}
-
-.menu-background {
-  background-color: #fff;
 }
 
 /** this is a style for desktop version **/
