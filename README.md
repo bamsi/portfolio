@@ -4,7 +4,7 @@ This is a skeleton of a mobile version portfolio design to demonstrate how the p
 
 ## Built With
 
-HTML, CSS, node
+HTML, CSS, JS, node
 
 ## Live demo
 
