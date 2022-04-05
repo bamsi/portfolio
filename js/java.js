@@ -1,25 +1,25 @@
-let hamburger = document.querySelector(".toggle-icon");
-let close_icon = document.querySelector(".close-icon");
-let nav_menu = document.querySelector(".nav-desktop");
-let logo_brand = document.querySelector(".logo-brand");
-let menu_items = document.querySelectorAll(".nav-link");
-
-[hamburger, close_icon].forEach((item) => {
-  item.addEventListener("click", showMenu);
-});
-
-menu_items.forEach((n) => n.addEventListener("click", hideMenu));
+const hamburger = document.querySelector('.toggle-icon');
+const closeIcon = document.querySelector('.close-icon');
+const navMenu = document.querySelector('.nav-desktop');
+const logoBrand = document.querySelector('.logo-brand');
+const menuItems = document.querySelectorAll('.nav-link');
 
 function showMenu() {
-  nav_menu.classList.toggle("nav-mobile");
-  hamburger.classList.toggle("hide");
-  close_icon.classList.toggle("show");
-  logo_brand.classList.toggle("hide");
+  navMenu.classList.toggle('nav-mobile');
+  hamburger.classList.toggle('hide');
+  closeIcon.classList.toggle('show');
+  logoBrand.classList.toggle('hide');
 }
 
 function hideMenu() {
-  hamburger.classList.remove("hide");
-  close_icon.classList.remove("show");
-  logo_brand.classList.remove("hide");
-  nav_menu.classList.remove("nav-mobile");
+  hamburger.classList.remove('hide');
+  closeIcon.classList.remove('show');
+  logoBrand.classList.remove('hide');
+  navMenu.classList.remove('nav-mobile');
 }
+
+[hamburger, closeIcon].forEach((item) => {
+  item.addEventListener('click', showMenu);
+});
+
+menuItems.forEach((n) => n.addEventListener('click', hideMenu));
