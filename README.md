@@ -35,6 +35,8 @@ The project demonstrates the portfolio design in smaller devices such as mobile 
 
 👤 **Author1**
 
-- GitHub: [@bamsi](https://github.com/bamsi)
+- GitHub:
+  [@bamsi](https://github.com/bamsi)  
+  [@YussufOB](https://github.com/YussufOB)
 - Twitter: [@bamsi](https://twitter.com/haji-bamsi-17327728/)
 - LinkedIn: [bamsi](https://linkedin.com/in/bamsi)
