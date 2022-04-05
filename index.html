@@ -20,25 +20,29 @@
       <section class="header-mobile">
         <!-- visible to mobile platforms only-->
         <div><a href="#">Welcome</a></div>
-        <div><img src="images/toggle.png" alt="toggle menu icon" /></div>
-        <div class="closeIcon"><img src="./images/Cancel.svg" alt=""></div>
+        <div class="toggle-icon">
+          <img src="images/toggle.png" alt="toggle menu icon" />
+        </div>
+        <div class="close-icon hide">
+          <img src="./images/Cancel.svg" alt="" class="close-icon" />
+        </div>
         <!-- end visible to mobile only-->
       </section>
       <section class="top-section">
         <header>
           <!-- visible to  desktop only -->
-          <div class="nav-desktop">
+          <div class="nav-desktop hide">
             <nav class="nav">
               <ul>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="nav-link">Portfolio</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
               </ul>
             </nav>
           </div>
           <!-- end visible to desktop only-->
         </header>
-        <section>
+        <article>
           <div class="header-title">
             <h1>Hey there. I'm Bamsi</h1>
             <h2 class="color-green">I'm a software developer</h2>
@@ -75,7 +79,7 @@
           <div class="down-arrow">
             <img src="images/arrow.png" alt="down arrow icon" />
           </div>
-        </section>
+        </article>
       </section>
 
       <section class="work-container">
@@ -313,6 +317,6 @@
       </footer>
     </main>
 
-    <script type="javascript" href="js/java.js"></script>
+    <script type="text/javascript" src="js/java.js"></script>
   </body>
 </html>
