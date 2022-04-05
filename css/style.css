@@ -59,8 +59,36 @@ ul {
   text-decoration: none;
 }
 
-.nav-desktop {
+.hide {
   display: none;
+}
+
+.show {
+  display: block;
+}
+
+.nav-mobile {
+  display: block;
+  font-weight: 600;
+  font-size: 32px;
+  background-color: #fff;
+  height: 100vh;
+}
+
+.nav-mobile ul {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.nav-mobile a {
+  text-decoration: none;
+  color: #3a4a42;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.nav-mobile li {
+  padding-bottom: 40px;
 }
 
 /** this is a style for desktop version **/
@@ -315,8 +343,7 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image:
-      url("../images/about-me-desktop1.svg"),
+    background-image: url("../images/about-me-desktop1.svg"),
       url("../images/about-me-desktop2.svg");
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
@@ -523,8 +550,7 @@ button:active {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-image:
-      url("../images/contact-section-1.svg"),
+    background-image: url("../images/contact-section-1.svg"),
       url("../images/contact-section-2.svg"),
       url("../images/contact-form-illustratoin-3-desktop.svg");
     background-repeat: no-repeat, no-repeat, no-repeat;

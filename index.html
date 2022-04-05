@@ -19,25 +19,30 @@
     <main class="main-container">
       <section class="header-mobile">
         <!-- visible to mobile platforms only-->
-        <div><a href="#">Welcome</a></div>
-        <div><img src="images/toggle.png" alt="toggle menu icon" /></div>
+        <div><a href="#" class="logo-brand">Welcome</a></div>
+        <div class="toggle-icon">
+          <img src="images/toggle.png" alt="toggle menu icon" />
+        </div>
+        <div class="close-icon hide">
+          <img src="./images/Cancel.svg" alt="" class="close-icon" />
+        </div>
         <!-- end visible to mobile only-->
       </section>
       <section class="top-section">
         <header>
           <!-- visible to  desktop only -->
-          <div class="nav-desktop">
+          <div class="nav-desktop hide">
             <nav class="nav">
               <ul>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#portfolio" class="nav-link"> Portfolio</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
               </ul>
             </nav>
           </div>
           <!-- end visible to desktop only-->
         </header>
-        <section>
+        <article>
           <div class="header-title">
             <h1>Hey there. I'm Bamsi</h1>
             <h2 class="color-green">I'm a software developer</h2>
@@ -74,10 +79,10 @@
           <div class="down-arrow">
             <img src="images/arrow.png" alt="down arrow icon" />
           </div>
-        </section>
+        </article>
       </section>
 
-      <section class="work-container">
+      <section id="portfolio" class="work-container">
         <div class="work-title">
           <h2>My Recent Works</h2>
         </div>
@@ -177,7 +182,7 @@
         </div>
       </section>
 
-      <section class="about-container">
+      <section id="about" class="about-container">
         <section class="about-top">
           <header class="about-header">
             <h2>About me</h2>
@@ -239,7 +244,7 @@
         </div>
       </section>
 
-      <section class="contact-section">
+      <section id="contact" class="contact-section">
         <div class="contact-background">
           <div class="contact-wrapper">
             <div class="form-title">
@@ -311,5 +316,7 @@
         <p>myemailhere@email.com</p>
       </footer>
     </main>
+
+    <script type="text/javascript" src="js/java.js"></script>
   </body>
 </html>
