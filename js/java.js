@@ -134,3 +134,27 @@ function loadProjects() {
   list.innerHTML = projectList;
 }
 window.onload = loadProjects();
+
+function openProject(item) {
+  const model = document.getElementById("model-container");
+  const container = document.querySelector(".main-container");
+  let innerHtml = `<div class="model">
+                     <div class="model-placeholder">
+                       <image src="../images/cancel-popup.svg" alt="Cancel" onClick="closePopup()" />
+                     </div>
+                      <h1 class="project-title">${item.name}</h1>
+                      <div class="buttons">`;
+  for (language of item.technologies) {
+    innerHtml += `<div>${language.name}</div>`;
+  }
+  innerHtml += `</div>
+                <p class="model-description">${item.description}</p>
+                <div class="project-buttons">
+                <button class="model-button" onclick="window.open('${item.live}')" > <span>See Live</span> <span class="live-icon"><span> </button>
+                <button class="model-button" onclick="window.open('${item.source}')"> <span>See Source</span> <span class="source-icon"><span> </button>
+                </div>
+                </div>`;
+  model.innerHTML = innerHtml;
+  container.classList.add("hide-main");
+  model.classList.add("show-popup");
+}
