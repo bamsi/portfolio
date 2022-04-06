@@ -343,7 +343,8 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("../images/about-me-desktop1.svg"),
+    background-image:
+      url("../images/about-me-desktop1.svg"),
       url("../images/about-me-desktop2.svg");
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
@@ -550,7 +551,8 @@ button:active {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-image: url("../images/contact-section-1.svg"),
+    background-image:
+      url("../images/contact-section-1.svg"),
       url("../images/contact-section-2.svg"),
       url("../images/contact-form-illustratoin-3-desktop.svg");
     background-repeat: no-repeat, no-repeat, no-repeat;
@@ -645,7 +647,7 @@ button:active {
   margin: 0;
 }
 
-/** style popup model**/
+/** style popup model **/
 .model-container {
   position: fixed;
   top: 0;
@@ -675,13 +677,18 @@ button:active {
   border-radius: 8px;
   position: relative;
 }
-.model-placeholder img {
+
+.icon-close {
   width: 12px;
   height: 12px;
   position: absolute;
   right: 22px;
   top: 22px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
 }
 
 .project-title {
@@ -735,6 +742,15 @@ button:active {
   padding: 0 10px;
 }
 
+.icon-close::before {
+  content: "x";
+  color: #fffff9;
+  font-weight: 500;
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  text-shadow: 0 0 40px #000;
+}
+
 /** style model window for desktop devices **/
 @media only screen and (min-width: 768px) {
   .model-container {
@@ -770,6 +786,7 @@ button:active {
     gap: 10px;
     flex-basis: 100%;
   }
+
   .model-description {
     order: 4;
     flex-basis: 100%;
@@ -785,14 +802,16 @@ button:active {
     gap: 12px;
   }
 
-  .model-placeholder img {
-    position: absolute;
-    right: 22px;
+  .icon-close {
     top: -62px;
     width: 40px;
     height: 40px;
-    cursor: pointer;
-    background-color: #28352f;
+    background-color: #ebecf0;
+  }
+
+  .icon-close::before {
+    font-size: 2rem;
+    color: #67798e;
   }
 }
 
