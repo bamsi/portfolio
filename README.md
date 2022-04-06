@@ -19,6 +19,10 @@ Please do the following to setup project locally
 You need the following installed
 -Install node.js version ^12.\*
 
+### Setup
+
+You need to setup node.js version 12.0 or above, and download the project from the github.
+
 ### Install
 
 Download the project from github and unzip the file or You can clone the project using the github link [https://github.com/bamsi/portfolio.git]
@@ -30,6 +34,14 @@ Run the following command
 ### Usage
 
 The project demonstrates the portfolio design in smaller devices such as mobile phones. The design uses flexbox to implement webpage layout.
+
+## Run tests
+
+After the successful installation of the application, run the website in your browser, google chrome is recommended.
+
+## Deployment
+
+You can deploy the website to any web server of your choice
 
 ## Authors
 
