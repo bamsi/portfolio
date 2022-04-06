@@ -112,6 +112,14 @@ let projects = [
   },
 ];
 
+/** function to close model */
+function closePopup() {
+  const model = document.getElementById("model-container");
+  const container = document.querySelector(".main-container");
+  container.classList.remove("hide-main");
+  model.classList.remove("show-popup");
+}
+
 function loadProjects() {
   const list = document.getElementById("project-list");
   let projectList = "";
