@@ -111,3 +111,26 @@ let projects = [
     source: "#",
   },
 ];
+
+function loadProjects() {
+  const list = document.getElementById("project-list");
+  let projectList = "";
+  for (item of projects) {
+    projectList += `<li class="list-item">
+                     <div class="image-placeholder"></div>
+                     <div class="image-desc">
+                        <h3>${item.name}</h3>
+                    <div class="buttons">`;
+    for (language of item.technologies) {
+      projectList += `<div>${language.name}</div>`;
+    }
+    projectList += `</div>
+                     <div class="button-link">
+                        <button class="button" type="button" onclick="openProject(item)">See Project</button>
+                      </div>
+                     </div>
+                    </li>`;
+  }
+  list.innerHTML = projectList;
+}
+window.onload = loadProjects();
