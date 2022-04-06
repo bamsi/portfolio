@@ -644,3 +644,93 @@ button:active {
   color: #42526e;
   margin: 0;
 }
+
+/** style popup model**/
+.model-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(193, 199, 208, 0.5);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.model {
+  margin: 16px;
+  padding: 32px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.model-placeholder {
+  width: 100%;
+  height: 20vh;
+  background: url("../images/tech-image.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: 1px solid #dfe1e6;
+  border-radius: 8px;
+  position: relative;
+}
+.model-placeholder img {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  right: 22px;
+  top: 22px;
+  cursor: pointer;
+}
+
+.project-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.model-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hide-main {
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.show-popup {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.live-icon {
+  background: url(../images/live.svg) no-repeat;
+  background-position: right;
+  width: 30px;
+  height: 24px;
+}
+
+.source-icon {
+  background: url(../images/github.svg) no-repeat;
+  background-position: right;
+  width: 30px;
+  height: 24px;
+}
+
+.model-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
