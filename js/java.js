@@ -144,7 +144,6 @@ function loadProjects() {
 
   list.innerHTML = projectList;
 }
-window.onload = loadProjects();
 
 function openProject() {
   const model = document.getElementById('model-container');
@@ -176,6 +175,21 @@ function openProject() {
 iconClose.forEach((n) => n.addEventListener('click', closePopup));
 projectLink.forEach((n) => n.addEventListener('click', openProject));
 
+/** create form object */
+
+function store() {
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  const formData = {
+    name,
+    email,
+    message,
+  };
+  window.localStorage.setItem('form_data', JSON.stringify(formData));
+}
+
 /** validate email address */
 const form = document.getElementById('form');
 form.addEventListener('submit', (e) => {
@@ -187,4 +201,17 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     error.innerHTML = message;
   }
+  store();
 });
+
+function readData() {
+  const formData = JSON.parse(window.localStorage.getItem('form_data'));
+  document.getElementById('name').value = formData.name;
+  document.getElementById('email').value = formData.email;
+  document.getElementById('message').value = formData.message;
+}
+
+window.onload = function () {
+  loadProjects();
+  readData();
+};
