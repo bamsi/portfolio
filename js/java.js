@@ -189,5 +189,4 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
     error.innerHTML = message;
   }
-  store();
 });
