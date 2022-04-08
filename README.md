@@ -48,7 +48,15 @@ You can deploy the website to any web server of your choice
 👤 **Author1**
 
 - GitHub:
-  [@bamsi](https://github.com/bamsi)  
-  [@YussufOB](https://github.com/YussufOB)
+  [@bamsi](https://github.com/bamsi)
 - Twitter: [@bamsi](https://twitter.com/haji-bamsi-17327728/)
 - LinkedIn: [bamsi](https://linkedin.com/in/bamsi)
+
+## Co Author
+
+👤 **Author1**
+
+[@YussufOB](https://github.com/YussufOB)
+
+👤 **Author2**
+[@JauJau088](https://github.com/JauJau088)
