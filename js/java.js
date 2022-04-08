@@ -144,7 +144,10 @@ function loadProjects() {
 
   list.innerHTML = projectList;
 }
-window.onload = loadProjects();
+window.onload = function () {
+  loadProjects();
+  readData();
+};
 
 function openProject() {
   const model = document.getElementById("model-container");
@@ -182,12 +185,13 @@ form.addEventListener("submit", (e) => {
   const email = document.getElementById("email");
   const error = document.getElementById("error");
   const pattern =
-    /^([a-zd\.\-_]+)@([a-zd\-_]+).([a-z\-_]{2,8})(.[a-z\-_]{2,8})?$/;
+    /^([a-zd.\-_]+)@([a-zd\-_]+).([a-z\-_]{2,8})(.[a-z\-_]{2,8})?$/;
   const message = "You have entered an invalid email address!";
   if (!pattern.test(email.value)) {
     e.preventDefault();
     error.innerHTML = message;
   }
+  store();
 });
 
 /** create form object */
@@ -210,4 +214,4 @@ function readData() {
   document.getElementById("name").value = form_data.name;
   document.getElementById("email").value = form_data.email;
   document.getElementById("message").value = form_data.message;
-} 
+}
