@@ -820,3 +820,9 @@ button:active {
     width: 90%;
   }
 }
+
+.error-message {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ff6163;
+}
