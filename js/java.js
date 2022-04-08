@@ -204,10 +204,3 @@ function store() {
   };
   window.localStorage.setItem("form_data", JSON.stringify(formData));
 }
-
-function readData() {
-  const form_data = JSON.parse(window.localStorage.getItem("form_data"));
-  document.getElementById("name").value = form_data.name;
-  document.getElementById("email").value = form_data.email;
-  document.getElementById("message").value = form_data.message;
-}
