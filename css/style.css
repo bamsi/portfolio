@@ -804,6 +804,7 @@ button:active {
 
   .icon-close {
     top: -62px;
+    right: 0;
     width: 40px;
     height: 40px;
     background-color: #ebecf0;
@@ -820,4 +821,10 @@ button:active {
   .model {
     width: 90%;
   }
+}
+
+.error-message {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ff6163;
 }

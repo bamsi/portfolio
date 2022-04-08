@@ -163,7 +163,7 @@
               </h2>
             </div>
             <div>
-              <form action="https://formspree.io/f/mjvlodlr" method="POST">
+              <form action="https://formspree.io/f/mjvlodlr" id="form" method="POST">
                 <ul class="contact-form">
                   <li>
                     <input
@@ -171,25 +171,29 @@
                       name="name"
                       placeholder="Full name"
                       maxlength="30"
+                      id="name"
                       required
                     />
                   </li>
                   <li>
                     <input
-                      type="email"
+                      type="text"
                       name="email"
                       placeholder="Email address"
+                      id="email"
                       required
                     />
                   </li>
                   <li>
                     <textarea
                       placeholder="Enter text here"
+                      id="message"
                       name="message"
                       maxlength="500"
                       required
                     ></textarea>
                   </li>
+                  <li class="error-message" id="error"></li>
                   <li>
                     <button type="submit" class="button">Get in touch</button>
                   </li>
