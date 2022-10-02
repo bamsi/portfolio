@@ -29,88 +29,87 @@ menuItems.forEach((n) => n.addEventListener('click', hideMenu));
 /** define project object */
 const projects = [
   {
-    name: 'Multi-Post Stories Gain+Glory',
+    name: 'Budget Application',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima error,doloremque reprehenderit debitis quam molestias vel, consequuntur autem neque temporibus, magni id. Dolorum vero voluptatibus aspernatur animi,eos nesciunt. Exercitationem.',
-    image: 'images/image.svg',
+      'Budget app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    image: 'images/budget-app.png',
     technologies: [
       { name: 'Ruby on rails' },
-      { name: 'CSS' },
-      { name: 'Javascript' },
-      { name: 'Html' },
+      { name: 'Bootstrap' },
+      { name: 'Postgres' },
     ],
-    live: 'https://bamsi.github.io/portfolio/',
-    source: 'https://github.com/bamsi/portfolio',
+    live: 'https://evening-lowlands-65023.herokuapp.com/',
+    source: 'https://github.com/bamsi/budget-app',
   },
   {
-    name: 'Multi-Post Stories Gain+Glory',
+    name: "Space Traveler's Hub",
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima error,doloremque reprehenderit debitis quam molestias vel, consequuntur autem neque temporibus, magni id. Dolorum vero voluptatibus aspernatur animi,eos nesciunt. Exercitationem.',
-    image: 'images/image.svg',
+      'A web application for a company that provides commercial and scientific space travel services. This application allows users to book rockets and join selected space missions.',
+    image: 'images/space.jfif',
     technologies: [
-      { name: 'Ruby on rails' },
+      { name: 'React Redux' },
+      { name: 'API' },
       { name: 'CSS' },
-      { name: 'Javascript' },
       { name: 'Html' },
     ],
-    live: 'https://bamsi.github.io/portfolio/',
-    source: 'https://github.com/bamsi/portfolio',
+    live: 'https://space-hub1.netlify.app/',
+    source: 'https://github.com/Mikelobi/space-travelers-hub',
   },
   {
-    name: 'Multi-Post Stories Gain+Glory',
+    name: 'Math Magician',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima error,doloremque reprehenderit debitis quam molestias vel, consequuntur autem neque temporibus, magni id. Dolorum vero voluptatibus aspernatur animi,eos nesciunt. Exercitationem.',
-    image: 'images/image.svg',
+      '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. -Read a random math-related quote.',
+    image: 'images/math.png',
     technologies: [
-      { name: 'Ruby on rails' },
+      { name: 'React' },
       { name: 'CSS' },
       { name: 'Javascript' },
       { name: 'Html' },
     ],
-    live: 'https://bamsi.github.io/portfolio/',
-    source: 'https://github.com/bamsi/portfolio',
+    live: 'https://react-mathmagician.herokuapp.com/',
+    source: 'https://github.com/bamsi/math-magician',
   },
   {
-    name: 'Multi-Post Stories Gain+Glory',
+    name: 'Leader Board',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima error,doloremque reprehenderit debitis quam molestias vel, consequuntur autem neque temporibus, magni id. Dolorum vero voluptatibus aspernatur animi,eos nesciunt. Exercitationem.',
-    image: 'images/image.svg',
+      'This is a project structure for the leader board which has been designed using html, css, javascript , and webpack.',
+    image: 'images/leaderboard.png',
     technologies: [
-      { name: 'Ruby on rails' },
+      { name: 'APIs' },
       { name: 'CSS' },
-      { name: 'Javascript' },
+      { name: 'Javascript(ES6)' },
       { name: 'Html' },
     ],
-    live: 'https://bamsi.github.io/portfolio/',
-    source: 'https://github.com/bamsi/portfolio',
+    live: 'https://kaleidoscopic-flan-2fcb9c.netlify.app/',
+    source: 'https://github.com/bamsi/leaderboard',
   },
   {
-    name: 'Multi-Post Stories Gain+Glory',
+    name: 'Jukwaa',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima error,doloremque reprehenderit debitis quam molestias vel, consequuntur autem neque temporibus, magni id. Dolorum vero voluptatibus aspernatur animi,eos nesciunt. Exercitationem.',
-    image: 'images/image.svg',
+      'This is a forum for sharing tips about lifestyle diseases. The website has been designed to address the challenge of non communicable disease which is currently affecting lives of young men and women.',
+    image: 'images/jukwaa.png',
     technologies: [
-      { name: 'Ruby on rails' },
+      { name: 'Bootstrap' },
       { name: 'CSS' },
       { name: 'Javascript' },
       { name: 'Html' },
     ],
-    live: 'https://bamsi.github.io/portfolio/',
-    source: 'https://github.com/bamsi/portfolio',
+    live: 'https://bamsi.github.io/jukwaa/',
+    source: 'https://github.com/bamsi/jukwaa',
   },
   {
-    name: 'Multi-Post Stories Gain+Glory',
+    name: 'School Management System',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    image: 'images/image.svg',
+      "This is a school management system designed to manage school operations. The system features include: student Registration, Student Academic Performance, Student Fees, Payment Management, Parent's Feedbac,k and Notice Board",
+    image: 'images/skongaweb.jfif',
     technologies: [
-      { name: 'Ruby on rails' },
-      { name: 'CSS' },
-      { name: 'Javascript' },
-      { name: 'Html' },
+      { name: 'Laravel' },
+      { name: 'Angular' },
+      { name: 'PrimeNG' },
+      { name: 'Postgres' },
     ],
-    live: 'https://bamsi.github.io/portfolio/',
-    source: 'https://github.com/bamsi/portfolio',
+    live: 'https://skongaweb.com/',
+    source: 'https://github.com/bamsi/skongaweb-ui',
   },
 ];
 
@@ -125,9 +124,11 @@ function closePopup() {
 function loadProjects() {
   const list = document.getElementById('project-list');
   let projectList = '';
-  projects.forEach((item) => {
+  projects.forEach((item, index) => {
     projectList += `<li class="list-item">
-    <div class="image-placeholder"></div>
+    <div class="image-placeholder">
+     <img src="${item.image}" alt="${item.name}" />
+    </div>
     <div class="image-desc">
        <h3>${item.name}</h3>
    <div class="buttons">`;
@@ -136,7 +137,7 @@ function loadProjects() {
     });
     projectList += `</div>
     <div class="button-link">
-       <button class="button link-project" type="button" onclick="openProject()">See Project</button>
+       <button class="button link-project" type="button" onclick="openProject(${index})">See Project</button>
      </div>
     </div>
    </li>`;
@@ -145,11 +146,10 @@ function loadProjects() {
   list.innerHTML = projectList;
 }
 
-function openProject() {
+function openProject(index) {
   const model = document.getElementById('model-container');
   const container = document.querySelector('.main-container');
-  const item = projects[0];
-
+  const item = projects[index];
   let innerHtml = `<div class="model">
                      <div class="model-placeholder">
                        <span class="icon-close" onclick="closePopup()"></span>
@@ -217,12 +217,15 @@ window.onload = function () {
 };
 
 // this implementation of smooth scrolling between several areas.
-$('.nav a').on('click', function(e){
-  if (this.hash !== '') {
-    e.preventDefault();
-    const hashValue = this.hash;
-    $('html, body').animate({
-      scrollTop: $(hashValue).offset().top
-    }, 900);
-  }
-})
+// $('.nav a').on('click', function (e) {
+//   if (this.hash !== '') {
+//     e.preventDefault();
+//     const hashValue = this.hash;
+//     $('html, body').animate(
+//       {
+//         scrollTop: $(hashValue).offset().top,
+//       },
+//       900,
+//     );
+//   }
+// });
