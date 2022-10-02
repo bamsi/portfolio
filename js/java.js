@@ -195,8 +195,7 @@ const form = document.getElementById('form');
 form.addEventListener('submit', (e) => {
   const email = document.getElementById('email');
   const error = document.getElementById('error');
-  const pattern =
-    /^([a-zd.\-_]+)@([a-zd\-_]+).([a-z\-_]{2,8})(.[a-z\-_]{2,8})?$/;
+  const pattern = /^([a-zd.\-_]+)@([a-zd\-_]+).([a-z\-_]{2,8})(.[a-z\-_]{2,8})?$/;
   const message = 'You have entered an invalid email address!';
   if (!pattern.test(email.value)) {
     e.preventDefault();
@@ -218,15 +217,15 @@ window.onload = function () {
 };
 
 // this implementation of smooth scrolling between several areas.
-$('.nav a').on('click', function (e) {
-  if (this.hash !== '') {
-    e.preventDefault();
-    const hashValue = this.hash;
-    $('html, body').animate(
-      {
-        scrollTop: $(hashValue).offset().top,
-      },
-      900
-    );
-  }
-});
+// $('.nav a').on('click', function (e) {
+//   if (this.hash !== '') {
+//     e.preventDefault();
+//     const hashValue = this.hash;
+//     $('html, body').animate(
+//       {
+//         scrollTop: $(hashValue).offset().top,
+//       },
+//       900,
+//     );
+//   }
+// });
